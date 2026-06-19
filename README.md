@@ -26,9 +26,11 @@ chmod +x opencode-desktop-linux-x86_64.AppImage
 
 ### Other Platforms
 
-- **macOS**: `brew install opencode`
-- **Windows**: `npm install -g @opencode-ai/opencode` or use WSL
 - **CLI (all platforms)**: `curl -fsSL https://opencode.ai/install | bash`
+- **macOS**: `brew install opencode-ai/tap/opencode`
+- **Windows**: Use WSL2, then run the curl command above
+- **Go**: `go install github.com/anomalyco/opencode@latest`
+- **AUR (Arch Linux)**: `paru -S opencode-ai-bin`
 
 ## Features
 
