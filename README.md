@@ -41,14 +41,11 @@ A custom skill for running and creating game bots autonomously.
 
 **Agents:**
 - `auto` — default agent, autonomously runs bots and generates code
-- `bot-runner` — launches Tetris, Snake.io, Minesweeper, Chrome Dino bots
+- `bot-runner` — launches Minesweeper bots
 - `code-bot` — writes/modifies bot scripts using local AI
 
 **Commands:**
-- `run:tetris` — run Tetris automation (Playwright)
-- `run:snake` — run Snake.io automation (Chrome CDP)
 - `run:minesweeper` — run Minesweeper automation
-- `run:dino` — run Chrome Dino automation
 - `code:generate` — create bot code via Qwen2.5-Coder-1.5B-Instruct
 
 **Model:** `ai/models/Qwen2.5-Coder-1.5B-Instruct/` — local code generation
