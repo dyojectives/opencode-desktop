@@ -45,12 +45,12 @@ This instance is configured for **game bot automation**. Built-in agents and ski
 | `bot-runner` | Launches & monitors game bots |
 | `code-bot` | Generates bot code using local AI |
 
-| Bot | Implementation |
-|---|---|
-| Tetris | Python Playwright (recommended), Node.js CDP, local |
-| Snake.io | Node.js CDP via Chrome remote debugging |
-| Minesweeper | Python Playwright + standalone AI solver |
-| Chrome Dino | Node.js CDP for chrome://dino |
+Available commands:
+- `run:tetris` — Tetris automation (Playwright/CDP)
+- `run:snake` — Snake.io automation (Chrome CDP)
+- `run:minesweeper` — Minesweeper automation (Playwright)
+- `run:dino` — Chrome Dino automation (CDP)
+- `code:generate` — Generate bot code using local Qwen2.5-Coder model
 
 Local AI model: `Qwen2.5-Coder-1.5B-Instruct` for code generation.
 
