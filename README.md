@@ -40,9 +40,16 @@ chmod +x opencode-desktop-linux-x86_64.AppImage
 A custom skill for running and creating game bots autonomously.
 
 **Agents:**
-- `auto` — default agent, autonomously runs bots and generates code
-- `bot-runner` — launches Minesweeper bots
-- `code-bot` — writes/modifies bot scripts using local AI
+- Plan / Build modes — Toggle with Tab. Plan mode explores without writing code; Build mode makes changes.
+- MCP servers — Connect any Model Context Protocol (https://opencode.ai/docs/mcp-servers/) server for additional tools (databases, APIs, filesystem, etc.)
+- Agents & subagents — Spawn parallel agents to work on different tasks simultaneously
+- Skills — Load specialized instructions/workflows for specific tasks (like the one you loaded just now)
+- Custom tools — Define your own tools via plugins or MCP/ACP
+- LSP integration — Automatically loads language servers to give the LLM project-aware context
+- Multi-session — Multiple independent agents on the same project
+- Themes, keybinds, commands — Fully customizable terminal UI
+- /init, /undo, /redo, /share — Built-in commands for project setup, revert, and sharing sessions
+- Any model provider — 75+ providers, including local models, through Zen or direct API keys
 
 **Commands:**
 - `run:minesweeper` — run Minesweeper automation
