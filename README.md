@@ -37,20 +37,9 @@ chmod +x opencode-desktop-linux-x86_64.AppImage
 
 ## Skills & Automation
 
-This instance is configured for **game bot automation**. Built-in agents and skills:
+This opencode instance is configured as a **game bot automation assistant** with a custom skill system. It can autonomously run, monitor, and create bots for multiple games using Playwright, CDP, or direct AI solvers. A local `Qwen2.5-Coder-1.5B-Instruct` model powers code generation and bot improvements.
 
-| Agent | Purpose |
-|---|---|
-| `auto` | Autonomous task agent (default) |
-| `bot-runner` | Launches & monitors game bots |
-| `code-bot` | Generates bot code using local AI |
-
-Available commands:
-- `run:tetris` — Tetris automation (Playwright/CDP)
-- `run:snake` — Snake.io automation (Chrome CDP)
-- `run:minesweeper` — Minesweeper automation (Playwright)
-- `run:dino` — Chrome Dino automation (CDP)
-- `code:generate` — Generate bot code using local Qwen2.5-Coder model
+Custom agents handle task routing: `auto` for autonomous operation, `bot-runner` for launching bots, and `code-bot` for generating automation scripts.
 
 Local AI model: `Qwen2.5-Coder-1.5B-Instruct` for code generation.
 
