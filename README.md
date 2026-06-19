@@ -35,6 +35,25 @@ chmod +x opencode-desktop-linux-x86_64.AppImage
 - Plugin system with TypeScript support
 - GitHub integration (`/opencode` in issues/PRs)
 
+## Skills & Automation
+
+This instance is configured for **game bot automation**. Built-in agents and skills:
+
+| Agent | Purpose |
+|---|---|
+| `auto` | Autonomous task agent (default) |
+| `bot-runner` | Launches & monitors game bots |
+| `code-bot` | Generates bot code using local AI |
+
+| Bot | Implementation |
+|---|---|
+| Tetris | Python Playwright (recommended), Node.js CDP, local |
+| Snake.io | Node.js CDP via Chrome remote debugging |
+| Minesweeper | Python Playwright + standalone AI solver |
+| Chrome Dino | Node.js CDP for chrome://dino |
+
+Local AI model: `Qwen2.5-Coder-1.5B-Instruct` for code generation.
+
 ## Quick Start
 
 ```bash
