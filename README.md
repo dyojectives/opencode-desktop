@@ -35,9 +35,23 @@ chmod +x opencode-desktop-linux-x86_64.AppImage
 - Plugin system with TypeScript support
 - GitHub integration (`/opencode` in issues/PRs)
 
-## Skills & Automation
+## Skill: bot-automation
 
+A custom skill for running and creating game bots autonomously.
 
+**Agents:**
+- `auto` — default agent, autonomously runs bots and generates code
+- `bot-runner` — launches Tetris, Snake.io, Minesweeper, Chrome Dino bots
+- `code-bot` — writes/modifies bot scripts using local AI
+
+**Commands:**
+- `run:tetris` — run Tetris automation (Playwright)
+- `run:snake` — run Snake.io automation (Chrome CDP)
+- `run:minesweeper` — run Minesweeper automation
+- `run:dino` — run Chrome Dino automation
+- `code:generate` — create bot code via Qwen2.5-Coder-1.5B-Instruct
+
+**Model:** `ai/models/Qwen2.5-Coder-1.5B-Instruct/` — local code generation
 
 ## Quick Start
 
