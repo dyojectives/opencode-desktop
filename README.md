@@ -37,11 +37,7 @@ chmod +x opencode-desktop-linux-x86_64.AppImage
 
 ## Skills & Automation
 
-This opencode instance is configured as a **game bot automation assistant** with a custom skill system. It can autonomously run, monitor, and create bots for multiple games using Playwright, CDP, or direct AI solvers. A local `Qwen2.5-Coder-1.5B-Instruct` model powers code generation and bot improvements.
 
-Custom agents handle task routing: `auto` for autonomous operation, `bot-runner` for launching bots, and `code-bot` for generating automation scripts.
-
-Local AI model: `Qwen2.5-Coder-1.5B-Instruct` for code generation.
 
 ## Quick Start
 
@@ -54,13 +50,6 @@ Local AI model: `Qwen2.5-Coder-1.5B-Instruct` for code generation.
 
 # Ask questions or make changes — just type naturally
 ```
-
-## Resources
-
-- [Official Website](https://opencode.ai)
-- [Documentation](https://opencode.ai/docs)
-- [GitHub Repository](https://github.com/anomalyco/opencode)
-- [Discord Community](https://opencode.ai/discord)
 
 ## License
 
