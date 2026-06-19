@@ -35,7 +35,7 @@ chmod +x opencode-desktop-linux-x86_64.AppImage
 - Plugin system with TypeScript support
 - GitHub integration (`/opencode` in issues/PRs)
 
-## Skill: bot-automation
+## Skill
 
 A custom skill for running and creating game bots autonomously.
 
@@ -52,10 +52,13 @@ A custom skill for running and creating game bots autonomously.
 - Any model provider — 75+ providers, including local models, through Zen or direct API keys
 
 **Commands:**
-- `run:minesweeper` — run Minesweeper automation
-- `code:generate` — create bot code via Qwen2.5-Coder-1.5B-Instruct
-
-**Model:** `ai/models/Qwen2.5-Coder-1.5B-Instruct/` — local code generation
+- /init — Analyze project, create AGENTS.md
+- /undo — Revert last changes (can be stacked)
+- /redo — Reapply undone changes
+- /share — Create a shareable link for current session
+- /help — Show help
+- /connect — Set up provider API keys
+**Model:** opencode zen,claude,chatgpt,colpit cli,ollama,etc
 
 ## Quick Start
 
